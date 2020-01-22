@@ -5,6 +5,8 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  font: 100%/1.3 "Roboto Slab", serif;
+  line-height: 1.3;
   box-sizing: border-box;
 
   -moz-text-size-adjust: 100%;
@@ -23,9 +25,15 @@ body {
 
 figure {
   position: relative;
+  margin: 0;
 }
 
 figcaption {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 1rem;
+  border-radius: 1rem;
+  max-width: 15em;
   position: absolute;
   bottom: .5rem;
   left: .5rem;
